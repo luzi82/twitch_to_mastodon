@@ -1,0 +1,19 @@
+{
+    "mastodon_account":{
+        "api_base_url": "https://mastodonserver.com",
+        "client_id":    "0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef",
+        "client_secret":"0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef",
+        "access_token": "0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef"
+    },
+    "toot_param_dict":{
+        "status_format":"New Twitch!\nTitle: {title}\nGame: {game_name}\n{stream_url}",
+        "sensitive": false,
+        "spoiler_text": null,
+        "visibility": "unlisted"
+    },
+    "twitch_client_id":"get it refer to https://dev.twitch.tv/docs/api/",
+    "twitch_user_login":"username",
+    "stream_memory_sec": 86400,
+    "game_memory_sec": 604800,
+    "database_file":"test.db"
+}
