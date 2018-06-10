@@ -1,0 +1,3 @@
+PATH=/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games
+
+* * * * * luzi82 flock -w 1 /home/luzi82/twitch_to_mastodon/lock -c "python3 /home/luzi82/twitch_to_mastodon/bot.py /home/luzi82/twitch_to_mastodon/config.json" >> /home/luzi82/twitch_to_mastodon/log.txt 2>&1
